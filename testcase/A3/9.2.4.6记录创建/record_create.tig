@@ -1,0 +1,10 @@
+/* Create Record: 
+	type-id{id = exp{, id = exp}}
+*/
+
+let
+	type pair = {first: int, second: int}
+	var p := pair {first = 1, second = 2}
+in
+	
+end

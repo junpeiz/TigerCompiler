@@ -1,0 +1,8 @@
+/* Test expression of nil */
+
+let
+    type list = {first: int, second: int}
+    var a : list := nil
+in
+    if a=nil then a.first := 2;
+end

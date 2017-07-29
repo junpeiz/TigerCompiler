@@ -1,0 +1,442 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "list"},
+      {
+      "name": "recordTy",
+      "children": [
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "id"},
+         {"name": "int"}
+
+        ]
+        },
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "value"},
+          {"name": "int"}
+
+         ]
+         },
+         {"name": "fieldList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {"name": "nametyList()"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "x"},
+     {
+     "name": "recordExp",
+     "children": [
+      {"name": "list"},
+      {
+      "name": "efieldList",
+      "children": [
+       {
+       "name": "efield",
+       "children": [
+        {"name": "id"},
+        {"name": "intExp(0)"}
+       ]
+       },
+       {
+       "name": "efieldList",
+       "children": [
+        {
+        "name": "efield",
+        "children": [
+         {"name": "value"},
+         {"name": "intExp(3)"}
+        ]
+        },
+        {"name": "efieldList()"}
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {
+    "name": "decList",
+    "children": [
+     {
+     "name": "varDec",
+     "children": [
+      {"name": "y"},
+      {
+      "name": "recordExp",
+      "children": [
+       {"name": "list"},
+       {
+       "name": "efieldList",
+       "children": [
+        {
+        "name": "efield",
+        "children": [
+         {"name": "id"},
+         {"name": "intExp(1)"}
+        ]
+        },
+        {
+        "name": "efieldList",
+        "children": [
+         {
+         "name": "efield",
+         "children": [
+          {"name": "value"},
+          {"name": "intExp(1)"}
+         ]
+         },
+         {"name": "efieldList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {
+     "name": "decList",
+     "children": [
+      {
+      "name": "varDec",
+      "children": [
+       {"name": "z"},
+       {
+       "name": "recordExp",
+       "children": [
+        {"name": "list"},
+        {
+        "name": "efieldList",
+        "children": [
+         {
+         "name": "efield",
+         "children": [
+          {"name": "id"},
+          {"name": "intExp(2)"}
+         ]
+         },
+         {
+         "name": "efieldList",
+         "children": [
+          {
+          "name": "efield",
+          "children": [
+           {"name": "value"},
+           {"name": "intExp(2)"}
+          ]
+          },
+          {"name": "efieldList()"}
+         ]
+         }
+        ]
+        }
+       ]
+       }
+      ]
+      },
+      {
+      "name": "decList",
+      "children": [
+       {
+       "name": "varDec",
+       "children": [
+        {"name": "max_id"},
+        {"name": "intExp(0)"}
+       ]
+       },
+       {
+       "name": "decList",
+       "children": [
+        {
+        "name": "varDec",
+        "children": [
+         {"name": "max_val"},
+         {"name": "intExp(0)"}
+        ]
+        },
+        {"name": "decList()"}
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    }
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {"name": "simpleVar(max_id)"},
+     {
+     "name": "varExp",
+     "children": [
+      {
+      "name": "fieldVar",
+      "children": [
+       {"name": "simpleVar(x)"},
+       {"name": "id"}
+
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {
+    "name": "expList",
+    "children": [
+     {
+     "name": "assignExp",
+     "children": [
+      {"name": "simpleVar(max_val)"},
+      {
+      "name": "varExp",
+      "children": [
+       {
+       "name": "fieldVar",
+       "children": [
+        {"name": "simpleVar(x)"},
+        {"name": "value"}
+
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {
+     "name": "expList",
+     "children": [
+      {
+      "name": "ifExp",
+      "children": [
+       {
+       "name": "opExp",
+       "children": [
+        {"name": "LESSTHAN"},
+        {
+        "name": "varExp",
+        "children": [
+         {"name": "simpleVar(max_val)"}
+        ]
+        },
+        {
+        "name": "varExp",
+        "children": [
+         {
+         "name": "fieldVar",
+         "children": [
+          {"name": "simpleVar(y)"},
+          {"name": "value"}
+
+         ]
+         }
+        ]
+        }
+       ]
+       },
+       {
+       "name": "seqExp",
+       "children": [
+        {
+        "name": "expList",
+        "children": [
+         {
+         "name": "assignExp",
+         "children": [
+          {"name": "simpleVar(max_id)"},
+          {
+          "name": "varExp",
+          "children": [
+           {
+           "name": "fieldVar",
+           "children": [
+            {"name": "simpleVar(y)"},
+            {"name": "id"}
+
+           ]
+           }
+          ]
+          }
+         ]
+         },
+         {
+         "name": "expList",
+         "children": [
+          {
+          "name": "assignExp",
+          "children": [
+           {"name": "simpleVar(max_val)"},
+           {
+           "name": "varExp",
+           "children": [
+            {
+            "name": "fieldVar",
+            "children": [
+             {"name": "simpleVar(y)"},
+             {"name": "value"}
+
+            ]
+            }
+           ]
+           }
+          ]
+          },
+          {"name": "expList()"}
+         ]
+         }
+        ]
+        }
+       ]
+       }
+      ]
+      },
+      {
+      "name": "expList",
+      "children": [
+       {
+       "name": "ifExp",
+       "children": [
+        {
+        "name": "opExp",
+        "children": [
+         {"name": "LESSTHAN"},
+         {
+         "name": "varExp",
+         "children": [
+          {"name": "simpleVar(max_val)"}
+         ]
+         },
+         {
+         "name": "varExp",
+         "children": [
+          {
+          "name": "fieldVar",
+          "children": [
+           {"name": "simpleVar(z)"},
+           {"name": "value"}
+
+          ]
+          }
+         ]
+         }
+        ]
+        },
+        {
+        "name": "seqExp",
+        "children": [
+         {
+         "name": "expList",
+         "children": [
+          {
+          "name": "assignExp",
+          "children": [
+           {"name": "simpleVar(max_id)"},
+           {
+           "name": "varExp",
+           "children": [
+            {
+            "name": "fieldVar",
+            "children": [
+             {"name": "simpleVar(z)"},
+             {"name": "id"}
+
+            ]
+            }
+           ]
+           }
+          ]
+          },
+          {
+          "name": "expList",
+          "children": [
+           {
+           "name": "assignExp",
+           "children": [
+            {"name": "simpleVar(max_val)"},
+            {
+            "name": "varExp",
+            "children": [
+             {
+             "name": "fieldVar",
+             "children": [
+              {"name": "simpleVar(z)"},
+              {"name": "value"}
+
+             ]
+             }
+            ]
+            }
+           ]
+           },
+           {"name": "expList()"}
+          ]
+          }
+         ]
+         }
+        ]
+        }
+       ]
+       },
+       {"name": "expList()"}
+      ]
+      }
+     ]
+     }
+    ]
+    }
+   ]
+   }
+  ]
+  }
+ ]
+ }

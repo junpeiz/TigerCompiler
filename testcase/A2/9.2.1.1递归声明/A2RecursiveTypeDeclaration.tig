@@ -1,0 +1,7 @@
+let
+    type intlist = {head: int, tail: intlist}
+    type tree = {key: int, children: treelist}
+    type treelist = {key: tree, tl: treelist}
+in
+
+end

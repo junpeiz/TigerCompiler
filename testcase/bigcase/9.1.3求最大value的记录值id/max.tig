@@ -1,0 +1,24 @@
+/* get the id of max value from a record 
+*/
+
+let
+	type list = {id: int, value: int}
+	var x := list{id = 0, value = 3}
+	var y := list{id = 1, value = 1}
+	var z := list{id = 2, value = 2}
+	var max_id := 0
+	var max_val := 0
+
+in
+	max_id := x.id;
+	max_val := x.value;
+	if max_val < y.value then (
+		max_id := y.id;
+		max_val := y.value;
+	);
+	if max_val < z.value then (
+		max_id := z.id;
+		max_val := z.value;
+	);
+
+end

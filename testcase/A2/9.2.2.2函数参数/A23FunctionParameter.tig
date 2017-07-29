@@ -1,0 +1,6 @@
+let
+    function A(a: int, b: int) = 
+        a := a + b
+in
+    A(2, 3)
+end

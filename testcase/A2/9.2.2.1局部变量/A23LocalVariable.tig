@@ -1,0 +1,5 @@
+let
+    var b := 3
+in
+    b := b + 1
+end

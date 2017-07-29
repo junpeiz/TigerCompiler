@@ -1,0 +1,72 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "intArray"},
+      {"name": "arrayTy(int)"}
+     ]
+     },
+     {"name": "nametyList()"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "a"},
+     {
+     "name": "arrayExp",
+     "children": [
+      {"name": "intArray"},
+      {"name": "intExp(3)"},
+      {"name": "intExp(0)"}
+     ]
+     }
+    ]
+    },
+    {"name": "decList()"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {
+     "name": "subscriptVar",
+     "children": [
+      {"name": "simpleVar(a)"},
+      {"name": "intExp(1)"}
+     ]
+     },
+     {"name": "intExp(2)"}
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tiger-Compiler"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TigerCompiler">
+				<Option output="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/TigerCompiler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 TigerCompiler"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TigerCompiler/fast">
+				<Option output="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/TigerCompiler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 TigerCompiler/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/home/ZHOU\ Junpei/Tiger-Compiler-Temporary/core/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/absyn.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/absyn.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/assem.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/assem.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/canon.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/canon.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/codegen.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/codegen.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/env.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/env.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/errormsg.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/errormsg.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/frame.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/frame.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/lex.yy.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/main.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/prabsyn.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/prabsyn.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/prirtree.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/prirtree.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/semant.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/semant.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/symbol.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/symbol.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/table.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/table.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/temp.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/temp.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/translate.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/translate.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/tree.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/tree.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/types.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/types.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/util.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/util.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/y.tab.c">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/y.tab.h">
+			<Option target="TigerCompiler"/>
+		</Unit>
+		<Unit filename="/home/ZHOU Junpei/Tiger-Compiler-Temporary/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

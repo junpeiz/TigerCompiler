@@ -1,0 +1,152 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "intlist"},
+      {
+      "name": "recordTy",
+      "children": [
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "head"},
+         {"name": "int"}
+
+        ]
+        },
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "tail"},
+          {"name": "intlist"}
+
+         ]
+         },
+         {"name": "fieldList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {
+     "name": "nametyList",
+     "children": [
+      {
+      "name": "namety",
+      "children": [
+       {"name": "tree"},
+       {
+       "name": "recordTy",
+       "children": [
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "key"},
+          {"name": "int"}
+
+         ]
+         },
+         {
+         "name": "fieldList",
+         "children": [
+          {
+          "name": "field",
+          "children": [
+           {"name": "children"},
+           {"name": "treelist"}
+
+          ]
+          },
+          {"name": "fieldList()"}
+         ]
+         }
+        ]
+        }
+       ]
+       }
+      ]
+      },
+      {
+      "name": "nametyList",
+      "children": [
+       {
+       "name": "namety",
+       "children": [
+        {"name": "treelist"},
+        {
+        "name": "recordTy",
+        "children": [
+         {
+         "name": "fieldList",
+         "children": [
+          {
+          "name": "field",
+          "children": [
+           {"name": "key"},
+           {"name": "tree"}
+
+          ]
+          },
+          {
+          "name": "fieldList",
+          "children": [
+           {
+           "name": "field",
+           "children": [
+            {"name": "tl"},
+            {"name": "treelist"}
+
+           ]
+           },
+           {"name": "fieldList()"}
+          ]
+          }
+         ]
+         }
+        ]
+        }
+       ]
+       },
+       {"name": "nametyList()"}
+      ]
+      }
+     ]
+     }
+    ]
+    }
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {"name": "expList()"}
+  ]
+  }
+ ]
+ }

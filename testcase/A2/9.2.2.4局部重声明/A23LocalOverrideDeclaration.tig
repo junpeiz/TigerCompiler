@@ -1,0 +1,10 @@
+let
+    function f(v: int) =
+        let 
+            var v:= 6
+        in
+            v := v + 1
+        end
+in
+
+end

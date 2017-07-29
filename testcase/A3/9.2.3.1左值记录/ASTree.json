@@ -1,0 +1,127 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "list"},
+      {
+      "name": "recordTy",
+      "children": [
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "first"},
+         {"name": "int"}
+
+        ]
+        },
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "second"},
+          {"name": "int"}
+
+         ]
+         },
+         {"name": "fieldList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {"name": "nametyList()"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "a"},
+     {
+     "name": "recordExp",
+     "children": [
+      {"name": "list"},
+      {
+      "name": "efieldList",
+      "children": [
+       {
+       "name": "efield",
+       "children": [
+        {"name": "first"},
+        {"name": "intExp(0)"}
+       ]
+       },
+       {
+       "name": "efieldList",
+       "children": [
+        {
+        "name": "efield",
+        "children": [
+         {"name": "second"},
+         {"name": "intExp(1)"}
+        ]
+        },
+        {"name": "efieldList()"}
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "decList()"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {
+     "name": "fieldVar",
+     "children": [
+      {"name": "simpleVar(a)"},
+      {"name": "first"}
+
+     ]
+     },
+     {"name": "intExp(2)"}
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

@@ -1,0 +1,48 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "b"},
+    {"name": "intExp(3)"}
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {"name": "simpleVar(b)"},
+     {
+     "name": "opExp",
+     "children": [
+      {"name": "PLUS"},
+      {
+      "name": "varExp",
+      "children": [
+       {"name": "simpleVar(b)"}
+      ]
+      },
+      {"name": "intExp(1)"}
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

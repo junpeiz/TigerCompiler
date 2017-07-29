@@ -1,0 +1,10 @@
+/*  if-then-else, if-then
+*/
+
+let
+	var a := 0
+in
+	if a = 0 then a := 1
+	else a := 2;
+	if a = 0 then a := 3;
+end

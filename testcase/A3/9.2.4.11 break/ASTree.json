@@ -1,0 +1,77 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "a"},
+    {"name": "intExp(5)"}
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "whileExp",
+    "children": [
+     {
+     "name": "opExp",
+     "children": [
+      {"name": "NOTEQUAL"},
+      {
+      "name": "varExp",
+      "children": [
+       {"name": "simpleVar(a)"}
+      ]
+      },
+      {"name": "intExp(0)"}
+     ]
+     },
+     {
+     "name": "seqExp",
+     "children": [
+      {
+      "name": "expList",
+      "children": [
+       {
+       "name": "opExp",
+       "children": [
+        {"name": "MINUS"},
+        {
+        "name": "varExp",
+        "children": [
+         {"name": "simpleVar(a)"}
+        ]
+        },
+        {"name": "intExp(1)"}
+       ]
+       },
+       {
+       "name": "expList",
+       "children": [
+        {"name": "breakExp()"},
+        {"name": "expList()"}
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

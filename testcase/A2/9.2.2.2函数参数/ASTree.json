@@ -1,0 +1,109 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "functionDec",
+   "children": [
+    {
+    "name": "fundecList",
+    "children": [
+     {
+     "name": "fundec",
+     "children": [
+      {"name": "A"},
+      {
+      "name": "fieldList",
+      "children": [
+       {
+       "name": "field",
+       "children": [
+        {"name": "a"},
+        {"name": "int"}
+
+       ]
+       },
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "b"},
+         {"name": "int"}
+
+        ]
+        },
+        {"name": "fieldList()"}
+       ]
+       }
+      ]
+      },
+      {
+      "name": "assignExp",
+      "children": [
+       {"name": "simpleVar(a)"},
+       {
+       "name": "opExp",
+       "children": [
+        {"name": "PLUS"},
+        {
+        "name": "varExp",
+        "children": [
+         {"name": "simpleVar(a)"}
+        ]
+        },
+        {
+        "name": "varExp",
+        "children": [
+         {"name": "simpleVar(b)"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {"name": "fundecList()"}
+    ]
+    }
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "callExp",
+    "children": [
+     {"name": "A"},
+     {
+     "name": "expList",
+     "children": [
+      {"name": "intExp(2)"},
+      {
+      "name": "expList",
+      "children": [
+       {"name": "intExp(3)"},
+       {"name": "expList()"}
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

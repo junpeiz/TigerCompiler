@@ -1,0 +1,20 @@
+ {
+ "name": "ESEQ",
+ "children": [
+  {
+  "name": "EXP",
+  "children": [
+   {"name": "CONST(0)"}
+  ]
+  },
+  {
+  "name": "CALL",
+  "children": [
+   {"name": "NAME(L1)"},
+    {"name": "TEMP(t4)"},
+    {"name": "CONST(3)"},
+    {"name": "CONST(2)"}
+  ]
+  }
+ ]
+ }

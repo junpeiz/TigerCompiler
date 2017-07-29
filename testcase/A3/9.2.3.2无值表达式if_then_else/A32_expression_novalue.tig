@@ -1,0 +1,7 @@
+/* Test expression with no value */
+
+let
+    var a := 0
+in
+    if(a<1) then a:=2 else a:=3
+end

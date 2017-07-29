@@ -1,0 +1,25 @@
+/* 
+	Fibonacci (iteration version)
+*/
+
+let
+	var n := 0
+	var res := 0
+	function fibonacci(n: int) : int = (
+		let 
+			var res := 1
+			var prev := 1
+			var next := 0
+		in
+			while n > 2 do (
+				n--;
+				next := prev;
+				prev := res;
+				res := prev + next;
+			);
+			res;
+		end
+	)
+in	
+	res := fibonacci(4);
+end

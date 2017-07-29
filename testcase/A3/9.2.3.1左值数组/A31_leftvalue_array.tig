@@ -1,0 +1,8 @@
+/* Test using the array as the left value */
+
+let
+    type intArray = array of int
+    var a := intArray [3] of 0
+in
+    a[1] := 2;
+end

@@ -1,0 +1,108 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "pair"},
+      {
+      "name": "recordTy",
+      "children": [
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "first"},
+         {"name": "int"}
+
+        ]
+        },
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "second"},
+          {"name": "int"}
+
+         ]
+         },
+         {"name": "fieldList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {"name": "nametyList()"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "p"},
+     {
+     "name": "recordExp",
+     "children": [
+      {"name": "pair"},
+      {
+      "name": "efieldList",
+      "children": [
+       {
+       "name": "efield",
+       "children": [
+        {"name": "first"},
+        {"name": "intExp(1)"}
+       ]
+       },
+       {
+       "name": "efieldList",
+       "children": [
+        {
+        "name": "efield",
+        "children": [
+         {"name": "second"},
+         {"name": "intExp(2)"}
+        ]
+        },
+        {"name": "efieldList()"}
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "decList()"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {"name": "expList()"}
+  ]
+  }
+ ]
+ }

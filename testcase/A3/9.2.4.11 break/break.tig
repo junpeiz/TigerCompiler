@@ -1,0 +1,11 @@
+/*  break
+*/
+
+let 
+	var a := 5
+in	
+	while a <> 0 do (
+		a--;
+		break;
+	)
+end

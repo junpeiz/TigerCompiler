@@ -1,0 +1,252 @@
+ {
+ "name": "ESEQ",
+ "children": [
+  {
+  "name": "EXP",
+  "children": [
+   {
+   "name": "ESEQ",
+   "children": [
+    {
+    "name": "MOVE",
+    "children": [
+     {
+     "name": "MEM",
+     "children": [
+      {
+      "name": "BINOP",
+      "children": [
+       {"name": "PLUS"},
+       {
+       "name": "MEM",
+       "children": [
+        {
+        "name": "BINOP",
+        "children": [
+         {"name": "PLUS"},
+         {"name": "TEMP(t4)"},
+         {"name": "CONST(0)"}
+        ]
+        }
+       ]
+       },
+       {"name": "CONST(-4)"}
+      ]
+      }
+     ]
+     },
+     {"name": "CONST(0)"}
+    ]
+    },
+    {"name": "CONST(0)"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "ESEQ",
+  "children": [
+   {
+   "name": "SEQ",
+   "children": [
+    {
+    "name": "CJUMP",
+    "children": [
+     {"name": "EQ"},
+     {
+     "name": "ESEQ",
+     "children": [
+      {
+      "name": "MOVE",
+      "children": [
+       {"name": "TEMP(t5)"},
+       {"name": "CONST(1)"}
+      ]
+      },
+      {
+      "name": "ESEQ",
+      "children": [
+       {
+       "name": "CJUMP",
+       "children": [
+        {"name": "LT"},
+        {
+        "name": "MEM",
+        "children": [
+         {
+         "name": "BINOP",
+         "children": [
+          {"name": "PLUS"},
+          {
+          "name": "MEM",
+          "children": [
+           {
+           "name": "BINOP",
+           "children": [
+            {"name": "PLUS"},
+            {"name": "TEMP(t4)"},
+            {"name": "CONST(0)"}
+           ]
+           }
+          ]
+          },
+          {"name": "CONST(-4)"}
+         ]
+         }
+        ]
+        },
+        {"name": "CONST(1)"},
+        {"name": "L1"},
+{"name": "L2"}
+
+       ]
+       },
+       {
+       "name": "ESEQ",
+       "children": [
+        {"name": "LABEL(L2)"},
+        {
+        "name": "ESEQ",
+        "children": [
+         {
+         "name": "MOVE",
+         "children": [
+          {"name": "TEMP(t5)"},
+          {"name": "CONST(0)"}
+         ]
+         },
+         {
+         "name": "ESEQ",
+         "children": [
+          {"name": "LABEL(L1)"},
+          {"name": "TEMP(t5)"}
+         ]
+         }
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {"name": "CONST(1)"},
+     {"name": "L3"},
+{"name": "L4"}
+
+    ]
+    },
+    {
+    "name": "SEQ",
+    "children": [
+     {"name": "LABEL(L3)"},
+     {
+     "name": "SEQ",
+     "children": [
+      {
+      "name": "MOVE",
+      "children": [
+       {
+       "name": "MEM",
+       "children": [
+        {
+        "name": "BINOP",
+        "children": [
+         {"name": "PLUS"},
+         {
+         "name": "MEM",
+         "children": [
+          {
+          "name": "BINOP",
+          "children": [
+           {"name": "PLUS"},
+           {"name": "TEMP(t4)"},
+           {"name": "CONST(0)"}
+          ]
+          }
+         ]
+         },
+         {"name": "CONST(-4)"}
+        ]
+        }
+       ]
+       },
+       {"name": "CONST(2)"}
+      ]
+      },
+      {
+      "name": "SEQ",
+      "children": [
+       {
+       "name": "JUMP",
+       "children": [
+        {"name": "NAME(L5)"}
+       ]
+       },
+       {
+       "name": "SEQ",
+       "children": [
+        {"name": "LABEL(L4)"},
+        {
+        "name": "SEQ",
+        "children": [
+         {
+         "name": "MOVE",
+         "children": [
+          {
+          "name": "MEM",
+          "children": [
+           {
+           "name": "BINOP",
+           "children": [
+            {"name": "PLUS"},
+            {
+            "name": "MEM",
+            "children": [
+             {
+             "name": "BINOP",
+             "children": [
+              {"name": "PLUS"},
+              {"name": "TEMP(t4)"},
+              {"name": "CONST(0)"}
+             ]
+             }
+            ]
+            },
+            {"name": "CONST(-4)"}
+           ]
+           }
+          ]
+          },
+          {"name": "CONST(3)"}
+         ]
+         },
+         {
+         "name": "SEQ",
+         "children": [
+          {
+          "name": "JUMP",
+          "children": [
+           {"name": "NAME(L5)"}
+          ]
+          },
+          {"name": "LABEL(L5)"}
+         ]
+         }
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    }
+   ]
+   },
+   {"name": "CONST(0)"}
+  ]
+  }
+ ]
+ }

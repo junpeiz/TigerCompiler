@@ -1,0 +1,7 @@
+/* Test expression of const */
+
+let
+    var a := 0
+in
+    a := 123
+end

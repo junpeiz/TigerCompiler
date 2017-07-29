@@ -1,0 +1,102 @@
+ {
+ "name": "ESEQ",
+ "children": [
+  {
+  "name": "EXP",
+  "children": [
+   {
+   "name": "ESEQ",
+   "children": [
+    {
+    "name": "MOVE",
+    "children": [
+     {
+     "name": "MEM",
+     "children": [
+      {
+      "name": "BINOP",
+      "children": [
+       {"name": "PLUS"},
+       {
+       "name": "MEM",
+       "children": [
+        {
+        "name": "BINOP",
+        "children": [
+         {"name": "PLUS"},
+         {"name": "TEMP(t4)"},
+         {"name": "CONST(0)"}
+        ]
+        }
+       ]
+       },
+       {"name": "CONST(-4)"}
+      ]
+      }
+     ]
+     },
+     {"name": "CONST(0)"}
+    ]
+    },
+    {"name": "CONST(0)"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "ESEQ",
+  "children": [
+   {
+   "name": "EXP",
+   "children": [
+    {"name": "CONST(0)"}
+   ]
+   },
+   {
+   "name": "ESEQ",
+   "children": [
+    {
+    "name": "MOVE",
+    "children": [
+     {
+     "name": "MEM",
+     "children": [
+      {
+      "name": "BINOP",
+      "children": [
+       {"name": "PLUS"},
+       {
+       "name": "MEM",
+       "children": [
+        {
+        "name": "BINOP",
+        "children": [
+         {"name": "PLUS"},
+         {"name": "TEMP(t4)"},
+         {"name": "CONST(0)"}
+        ]
+        }
+       ]
+       },
+       {"name": "CONST(-4)"}
+      ]
+      }
+     ]
+     },
+     {
+     "name": "CALL",
+     "children": [
+      {"name": "NAME(L1)"},
+       {"name": "TEMP(t4)"},
+       {"name": "CONST(4)"}
+     ]
+     }
+    ]
+    },
+    {"name": "CONST(0)"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

@@ -1,0 +1,7 @@
+/* Test expression of negative */
+
+let
+    var a := 1
+in
+    a := -a
+end

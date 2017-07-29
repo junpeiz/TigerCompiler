@@ -1,0 +1,3 @@
+/Users/myscarlet/tiger/Tiger-Compiler-Temporary/core/build/CMakeFiles/rebuild_cache.dir
+/Users/myscarlet/tiger/Tiger-Compiler-Temporary/core/build/CMakeFiles/edit_cache.dir
+/Users/myscarlet/tiger/Tiger-Compiler-Temporary/core/build/CMakeFiles/TigerCompiler.dir

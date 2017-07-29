@@ -1,0 +1,171 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "res"},
+    {"name": "intExp(0)"}
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "functionDec",
+    "children": [
+     {
+     "name": "fundecList",
+     "children": [
+      {
+      "name": "fundec",
+      "children": [
+       {"name": "fibonacci"},
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "x"},
+         {"name": "int"}
+
+        ]
+        },
+        {"name": "fieldList()"}
+       ]
+       },
+       {"name": "int"},
+       {
+       "name": "seqExp",
+       "children": [
+        {
+        "name": "expList",
+        "children": [
+         {
+         "name": "ifExp",
+         "children": [
+          {
+          "name": "opExp",
+          "children": [
+           {"name": "LESSTHAN"},
+           {
+           "name": "varExp",
+           "children": [
+            {"name": "simpleVar(x)"}
+           ]
+           },
+           {"name": "intExp(2)"}
+          ]
+          },
+          {"name": "intExp(1)"},
+          {
+          "name": "opExp",
+          "children": [
+           {"name": "PLUS"},
+           {
+           "name": "callExp",
+           "children": [
+            {"name": "fibonacci"},
+            {
+            "name": "expList",
+            "children": [
+             {
+             "name": "opExp",
+             "children": [
+              {"name": "MINUS"},
+              {
+              "name": "varExp",
+              "children": [
+               {"name": "simpleVar(x)"}
+              ]
+              },
+              {"name": "intExp(1)"}
+             ]
+             },
+             {"name": "expList()"}
+            ]
+            }
+           ]
+           },
+           {
+           "name": "callExp",
+           "children": [
+            {"name": "fibonacci"},
+            {
+            "name": "expList",
+            "children": [
+             {
+             "name": "opExp",
+             "children": [
+              {"name": "MINUS"},
+              {
+              "name": "varExp",
+              "children": [
+               {"name": "simpleVar(x)"}
+              ]
+              },
+              {"name": "intExp(2)"}
+             ]
+             },
+             {"name": "expList()"}
+            ]
+            }
+           ]
+           }
+          ]
+          }
+         ]
+         },
+         {"name": "expList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      },
+      {"name": "fundecList()"}
+     ]
+     }
+    ]
+    },
+    {"name": "decList()"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {"name": "simpleVar(res)"},
+     {
+     "name": "callExp",
+     "children": [
+      {"name": "fibonacci"},
+      {
+      "name": "expList",
+      "children": [
+       {"name": "intExp(4)"},
+       {"name": "expList()"}
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

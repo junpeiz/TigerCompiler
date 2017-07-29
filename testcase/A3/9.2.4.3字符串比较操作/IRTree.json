@@ -1,0 +1,233 @@
+ {
+ "name": "ESEQ",
+ "children": [
+  {
+  "name": "EXP",
+  "children": [
+   {
+   "name": "ESEQ",
+   "children": [
+    {
+    "name": "MOVE",
+    "children": [
+     {
+     "name": "MEM",
+     "children": [
+      {
+      "name": "BINOP",
+      "children": [
+       {"name": "PLUS"},
+       {
+       "name": "MEM",
+       "children": [
+        {
+        "name": "BINOP",
+        "children": [
+         {"name": "PLUS"},
+         {"name": "TEMP(t4)"},
+         {"name": "CONST(0)"}
+        ]
+        }
+       ]
+       },
+       {"name": "CONST(-4)"}
+      ]
+      }
+     ]
+     },
+     {"name": "NAME(L1)"}
+    ]
+    },
+    {"name": "CONST(0)"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "ESEQ",
+  "children": [
+   {
+   "name": "EXP",
+   "children": [
+    {
+    "name": "ESEQ",
+    "children": [
+     {
+     "name": "MOVE",
+     "children": [
+      {
+      "name": "MEM",
+      "children": [
+       {
+       "name": "BINOP",
+       "children": [
+        {"name": "PLUS"},
+        {
+        "name": "MEM",
+        "children": [
+         {
+         "name": "BINOP",
+         "children": [
+          {"name": "PLUS"},
+          {"name": "TEMP(t4)"},
+          {"name": "CONST(0)"}
+         ]
+         }
+        ]
+        },
+        {"name": "CONST(-8)"}
+       ]
+       }
+      ]
+      },
+      {"name": "NAME(L2)"}
+     ]
+     },
+     {"name": "CONST(0)"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "ESEQ",
+   "children": [
+    {
+    "name": "EXP",
+    "children": [
+     {
+     "name": "ESEQ",
+     "children": [
+      {
+      "name": "MOVE",
+      "children": [
+       {
+       "name": "MEM",
+       "children": [
+        {
+        "name": "BINOP",
+        "children": [
+         {"name": "PLUS"},
+         {
+         "name": "MEM",
+         "children": [
+          {
+          "name": "BINOP",
+          "children": [
+           {"name": "PLUS"},
+           {"name": "TEMP(t4)"},
+           {"name": "CONST(0)"}
+          ]
+          }
+         ]
+         },
+         {"name": "CONST(-12)"}
+        ]
+        }
+       ]
+       },
+       {"name": "CONST(0)"}
+      ]
+      },
+      {"name": "CONST(0)"}
+     ]
+     }
+    ]
+    },
+    {
+    "name": "ESEQ",
+    "children": [
+     {
+     "name": "MOVE",
+     "children": [
+      {
+      "name": "MEM",
+      "children": [
+       {
+       "name": "BINOP",
+       "children": [
+        {"name": "PLUS"},
+        {
+        "name": "MEM",
+        "children": [
+         {
+         "name": "BINOP",
+         "children": [
+          {"name": "PLUS"},
+          {"name": "TEMP(t4)"},
+          {"name": "CONST(0)"}
+         ]
+         }
+        ]
+        },
+        {"name": "CONST(-12)"}
+       ]
+       }
+      ]
+      },
+      {
+      "name": "CALL",
+      "children": [
+       {"name": "NAME(<Compare String>)"},
+        {
+        "name": "MEM",
+        "children": [
+         {
+         "name": "BINOP",
+         "children": [
+          {"name": "PLUS"},
+          {
+          "name": "MEM",
+          "children": [
+           {
+           "name": "BINOP",
+           "children": [
+            {"name": "PLUS"},
+            {"name": "TEMP(t4)"},
+            {"name": "CONST(0)"}
+           ]
+           }
+          ]
+          },
+          {"name": "CONST(-4)"}
+         ]
+         }
+        ]
+        },
+        {
+        "name": "MEM",
+        "children": [
+         {
+         "name": "BINOP",
+         "children": [
+          {"name": "PLUS"},
+          {
+          "name": "MEM",
+          "children": [
+           {
+           "name": "BINOP",
+           "children": [
+            {"name": "PLUS"},
+            {"name": "TEMP(t4)"},
+            {"name": "CONST(0)"}
+           ]
+           }
+          ]
+          },
+          {"name": "CONST(-8)"}
+         ]
+         }
+        ]
+        }
+      ]
+      }
+     ]
+     },
+     {"name": "CONST(0)"}
+    ]
+    }
+   ]
+   }
+  ]
+  }
+ ]
+ }

@@ -1,0 +1,79 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "intlist"},
+      {
+      "name": "recordTy",
+      "children": [
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "head"},
+         {"name": "int"}
+
+        ]
+        },
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "tail"},
+          {"name": "int"}
+
+         ]
+         },
+         {
+         "name": "fieldList",
+         "children": [
+          {
+          "name": "field",
+          "children": [
+           {"name": "name"},
+           {"name": "string"}
+
+          ]
+          },
+          {"name": "fieldList()"}
+         ]
+         }
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {"name": "nametyList()"}
+    ]
+    }
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {"name": "expList()"}
+  ]
+  }
+ ]
+ }

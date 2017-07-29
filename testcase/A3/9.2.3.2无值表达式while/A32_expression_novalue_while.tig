@@ -1,0 +1,7 @@
+/* Test expression with no value of while*/
+
+let
+    var a := 0
+in
+    while(a<2) do a:=a+1;
+end

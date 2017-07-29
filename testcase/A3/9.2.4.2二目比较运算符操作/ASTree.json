@@ -1,0 +1,138 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "a"},
+    {"name": "intExp(0)"}
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {"name": "simpleVar(a)"},
+     {
+     "name": "opExp",
+     "children": [
+      {"name": "EQUAL"},
+      {"name": "intExp(1)"},
+      {"name": "intExp(2)"}
+     ]
+     }
+    ]
+    },
+    {
+    "name": "expList",
+    "children": [
+     {
+     "name": "assignExp",
+     "children": [
+      {"name": "simpleVar(a)"},
+      {
+      "name": "opExp",
+      "children": [
+       {"name": "NOTEQUAL"},
+       {"name": "intExp(1)"},
+       {"name": "intExp(2)"}
+      ]
+      }
+     ]
+     },
+     {
+     "name": "expList",
+     "children": [
+      {
+      "name": "assignExp",
+      "children": [
+       {"name": "simpleVar(a)"},
+       {
+       "name": "opExp",
+       "children": [
+        {"name": "LESSTHAN"},
+        {"name": "intExp(1)"},
+        {"name": "intExp(2)"}
+       ]
+       }
+      ]
+      },
+      {
+      "name": "expList",
+      "children": [
+       {
+       "name": "assignExp",
+       "children": [
+        {"name": "simpleVar(a)"},
+        {
+        "name": "opExp",
+        "children": [
+         {"name": "GREAT"},
+         {"name": "intExp(1)"},
+         {"name": "intExp(2)"}
+        ]
+        }
+       ]
+       },
+       {
+       "name": "expList",
+       "children": [
+        {
+        "name": "assignExp",
+        "children": [
+         {"name": "simpleVar(a)"},
+         {
+         "name": "opExp",
+         "children": [
+          {"name": "GREATEQ"},
+          {"name": "intExp(1)"},
+          {"name": "intExp(2)"}
+         ]
+         }
+        ]
+        },
+        {
+        "name": "expList",
+        "children": [
+         {
+         "name": "assignExp",
+         "children": [
+          {"name": "simpleVar(a)"},
+          {
+          "name": "opExp",
+          "children": [
+           {"name": "LESSEQ"},
+           {"name": "intExp(1)"},
+           {"name": "intExp(2)"}
+          ]
+          }
+         ]
+         },
+         {"name": "expList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    }
+   ]
+   }
+  ]
+  }
+ ]
+ }

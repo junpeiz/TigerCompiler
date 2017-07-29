@@ -1,0 +1,143 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "a"},
+    {"name": "intExp(2)"}
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "b"},
+     {"name": "intExp(1)"}
+    ]
+    },
+    {
+    "name": "decList",
+    "children": [
+     {
+     "name": "functionDec",
+     "children": [
+      {
+      "name": "fundecList",
+      "children": [
+       {
+       "name": "fundec",
+       "children": [
+        {"name": "f"},
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "m"},
+          {"name": "int"}
+
+         ]
+         },
+         {
+         "name": "fieldList",
+         "children": [
+          {
+          "name": "field",
+          "children": [
+           {"name": "n"},
+           {"name": "int"}
+
+          ]
+          },
+          {"name": "fieldList()"}
+         ]
+         }
+        ]
+        },
+        {
+        "name": "assignExp",
+        "children": [
+         {"name": "simpleVar(a)"},
+         {
+         "name": "opExp",
+         "children": [
+          {"name": "PLUS"},
+          {
+          "name": "varExp",
+          "children": [
+           {"name": "simpleVar(m)"}
+          ]
+          },
+          {
+          "name": "varExp",
+          "children": [
+           {"name": "simpleVar(n)"}
+          ]
+          }
+         ]
+         }
+        ]
+        }
+       ]
+       },
+       {"name": "fundecList()"}
+      ]
+      }
+     ]
+     },
+     {"name": "decList()"}
+    ]
+    }
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "callExp",
+    "children": [
+     {"name": "f"},
+     {
+     "name": "expList",
+     "children": [
+      {
+      "name": "varExp",
+      "children": [
+       {"name": "simpleVar(a)"}
+      ]
+      },
+      {
+      "name": "expList",
+      "children": [
+       {
+       "name": "varExp",
+       "children": [
+        {"name": "simpleVar(b)"}
+       ]
+       },
+       {"name": "expList()"}
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

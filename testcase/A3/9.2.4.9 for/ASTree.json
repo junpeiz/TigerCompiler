@@ -1,0 +1,38 @@
+ {
+ "name": "letExp",
+ "children": [
+  {"name": "decList()"},
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "forExp",
+    "children": [
+     {"name": "a"},
+     {"name": "intExp(0)"},
+     {"name": "intExp(10)"},
+     {
+     "name": "opExp",
+     "children": [
+      {"name": "PLUS"},
+      {
+      "name": "varExp",
+      "children": [
+       {"name": "simpleVar(a)"}
+      ]
+      },
+      {"name": "intExp(1)"}
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

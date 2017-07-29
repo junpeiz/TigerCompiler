@@ -1,0 +1,6 @@
+/* Record Type Declaration */
+let
+    type intlist = {head: int, tail: int, name: string}
+in
+
+end

@@ -1,0 +1,56 @@
+ {
+ "name": "EXP",
+ "children": [
+  {
+  "name": "CALL",
+  "children": [
+   {"name": "NAME(L1)"},
+    {
+    "name": "MEM",
+    "children": [
+     {
+     "name": "BINOP",
+     "children": [
+      {"name": "PLUS"},
+      {"name": "TEMP(t4)"},
+      {"name": "CONST(0)"}
+     ]
+     }
+    ]
+    },
+    {
+    "name": "BINOP",
+    "children": [
+     {"name": "MINUS"},
+     {
+     "name": "MEM",
+     "children": [
+      {
+      "name": "BINOP",
+      "children": [
+       {"name": "PLUS"},
+       {
+       "name": "MEM",
+       "children": [
+        {
+        "name": "BINOP",
+        "children": [
+         {"name": "PLUS"},
+         {"name": "TEMP(t4)"},
+         {"name": "CONST(0)"}
+        ]
+        }
+       ]
+       },
+       {"name": "CONST(4)"}
+      ]
+      }
+     ]
+     },
+     {"name": "CONST(1)"}
+    ]
+    }
+  ]
+  }
+ ]
+ }

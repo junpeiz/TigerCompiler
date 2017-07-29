@@ -1,0 +1,9 @@
+/* Test expression of call function */
+
+let
+    var a:=2
+    var b:=1
+    function f(m:int, n:int) = a := m + n
+in
+    f(a,b);
+end

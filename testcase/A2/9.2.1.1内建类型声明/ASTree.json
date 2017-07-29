@@ -1,0 +1,47 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "test_type"},
+      {"name": "nameTy(int)"}
+     ]
+     },
+     {
+     "name": "nametyList",
+     "children": [
+      {
+      "name": "namety",
+      "children": [
+       {"name": "test_type2"},
+       {"name": "nameTy(string)"}
+      ]
+      },
+      {"name": "nametyList()"}
+     ]
+     }
+    ]
+    }
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {"name": "expList()"}
+  ]
+  }
+ ]
+ }

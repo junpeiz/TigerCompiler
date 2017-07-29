@@ -1,0 +1,75 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "a"},
+    {"name": "intExp(0)"}
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {"name": "simpleVar(a)"},
+     {
+     "name": "opExp",
+     "children": [
+      {"name": "PLUS"},
+      {"name": "intExp(1)"},
+      {
+      "name": "opExp",
+      "children": [
+       {"name": "DIVIDE"},
+       {
+       "name": "seqExp",
+       "children": [
+        {
+        "name": "expList",
+        "children": [
+         {
+         "name": "opExp",
+         "children": [
+          {"name": "PLUS"},
+          {"name": "intExp(2)"},
+          {
+          "name": "opExp",
+          "children": [
+           {"name": "TIMES"},
+           {"name": "intExp(2)"},
+           {"name": "intExp(3)"}
+          ]
+          }
+         ]
+         },
+         {"name": "expList()"}
+        ]
+        }
+       ]
+       },
+       {"name": "intExp(4)"}
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

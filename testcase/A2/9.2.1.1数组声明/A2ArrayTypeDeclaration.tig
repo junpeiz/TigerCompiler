@@ -1,0 +1,6 @@
+/* Array Type Declaration */
+let
+    type intArray = array of int
+in
+
+end

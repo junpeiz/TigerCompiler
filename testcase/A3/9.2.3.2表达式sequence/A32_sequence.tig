@@ -1,0 +1,7 @@
+/* Test expression of sequence */
+
+let
+    var a:=0
+in
+    a = (a:=a+1;a)
+end

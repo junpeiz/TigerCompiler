@@ -1,0 +1,7 @@
+/* Basic Type Declaration */
+let
+    type test_type = int
+    type test_type2 = string
+in
+
+end

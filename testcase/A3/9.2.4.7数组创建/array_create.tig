@@ -1,0 +1,10 @@
+/* Array Creation:
+		type-id[exp1] of exp2
+*/
+
+let 
+	type intArray = array of int
+	var a := intArray [10] of 0
+in
+
+end

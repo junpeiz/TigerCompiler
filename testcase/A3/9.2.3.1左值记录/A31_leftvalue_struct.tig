@@ -1,0 +1,8 @@
+/* Test using the struct as the left value */
+
+let
+    type list = {first: int, second: int}
+    var a := list{first=0, second=1}
+in
+    a.first := 2;
+end

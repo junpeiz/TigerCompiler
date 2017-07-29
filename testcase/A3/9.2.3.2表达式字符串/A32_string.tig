@@ -1,0 +1,7 @@
+/* Test expression of string */
+
+let
+    var a := "123"
+in
+    a := "1234"
+end

@@ -1,0 +1,7 @@
+/* Test expression of empty bracket */
+
+let
+    var a:=0
+in
+    ()
+end

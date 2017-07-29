@@ -1,0 +1,6 @@
+let
+    function A(t: int) = 
+        A(t - 1)
+in
+
+end

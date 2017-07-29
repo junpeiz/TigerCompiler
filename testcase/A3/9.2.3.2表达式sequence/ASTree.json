@@ -1,0 +1,82 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "varDec",
+   "children": [
+    {"name": "a"},
+    {"name": "intExp(0)"}
+   ]
+   },
+   {"name": "decList()"}
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "opExp",
+    "children": [
+     {"name": "EQUAL"},
+     {
+     "name": "varExp",
+     "children": [
+      {"name": "simpleVar(a)"}
+     ]
+     },
+     {
+     "name": "seqExp",
+     "children": [
+      {
+      "name": "expList",
+      "children": [
+       {
+       "name": "assignExp",
+       "children": [
+        {"name": "simpleVar(a)"},
+        {
+        "name": "opExp",
+        "children": [
+         {"name": "PLUS"},
+         {
+         "name": "varExp",
+         "children": [
+          {"name": "simpleVar(a)"}
+         ]
+         },
+         {"name": "intExp(1)"}
+        ]
+        }
+       ]
+       },
+       {
+       "name": "expList",
+       "children": [
+        {
+        "name": "varExp",
+        "children": [
+         {"name": "simpleVar(a)"}
+        ]
+        },
+        {"name": "expList()"}
+       ]
+       }
+      ]
+      }
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

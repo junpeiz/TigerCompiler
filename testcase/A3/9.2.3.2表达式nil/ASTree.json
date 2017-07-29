@@ -1,0 +1,116 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "list"},
+      {
+      "name": "recordTy",
+      "children": [
+       {
+       "name": "fieldList",
+       "children": [
+        {
+        "name": "field",
+        "children": [
+         {"name": "first"},
+         {"name": "int"}
+
+        ]
+        },
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "second"},
+          {"name": "int"}
+
+         ]
+         },
+         {"name": "fieldList()"}
+        ]
+        }
+       ]
+       }
+      ]
+      }
+     ]
+     },
+     {"name": "nametyList()"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "a"},
+     {"name": "list"},
+     {"name": "nilExp()"}
+    ]
+    },
+    {"name": "decList()"}
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "ifExp",
+    "children": [
+     {
+     "name": "opExp",
+     "children": [
+      {"name": "EQUAL"},
+      {
+      "name": "varExp",
+      "children": [
+       {"name": "simpleVar(a)"}
+      ]
+      },
+      {"name": "nilExp()"}
+     ]
+     },
+     {
+     "name": "assignExp",
+     "children": [
+      {
+      "name": "fieldVar",
+      "children": [
+       {"name": "simpleVar(a)"},
+       {"name": "first"}
+
+      ]
+      },
+      {"name": "intExp(2)"}
+     ]
+     }
+    ]
+    },
+    {"name": "expList()"}
+   ]
+   }
+  ]
+  }
+ ]
+ }

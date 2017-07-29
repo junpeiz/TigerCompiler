@@ -1,0 +1,11 @@
+/* String Comparasion: exp op exp
+	op: =, <>, >, <, >=, <=
+*/
+
+let
+	var a := "hello"
+	var b := "world"
+	var i := 0
+in	
+	i := a = b;	
+end

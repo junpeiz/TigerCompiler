@@ -1,0 +1,453 @@
+ {
+ "name": "letExp",
+ "children": [
+  {
+  "name": "decList",
+  "children": [
+   {
+   "name": "typeDec",
+   "children": [
+    {
+    "name": "nametyList",
+    "children": [
+     {
+     "name": "namety",
+     "children": [
+      {"name": "intList"},
+      {"name": "arrayTy(int)"}
+     ]
+     },
+     {"name": "nametyList()"}
+    ]
+    }
+   ]
+   },
+   {
+   "name": "decList",
+   "children": [
+    {
+    "name": "varDec",
+    "children": [
+     {"name": "a"},
+     {
+     "name": "arrayExp",
+     "children": [
+      {"name": "intList"},
+      {"name": "intExp(3)"},
+      {"name": "intExp(0)"}
+     ]
+     }
+    ]
+    },
+    {
+    "name": "decList",
+    "children": [
+     {
+     "name": "functionDec",
+     "children": [
+      {
+      "name": "fundecList",
+      "children": [
+       {
+       "name": "fundec",
+       "children": [
+        {"name": "insertionSort"},
+        {
+        "name": "fieldList",
+        "children": [
+         {
+         "name": "field",
+         "children": [
+          {"name": "x"},
+          {"name": "intList"}
+
+         ]
+         },
+         {
+         "name": "fieldList",
+         "children": [
+          {
+          "name": "field",
+          "children": [
+           {"name": "N"},
+           {"name": "int"}
+
+          ]
+          },
+          {"name": "fieldList()"}
+         ]
+         }
+        ]
+        },
+        {
+        "name": "seqExp",
+        "children": [
+         {
+         "name": "expList",
+         "children": [
+          {
+          "name": "letExp",
+          "children": [
+           {
+           "name": "decList",
+           "children": [
+            {
+            "name": "varDec",
+            "children": [
+             {"name": "j"},
+             {"name": "intExp(0)"}
+            ]
+            },
+            {
+            "name": "decList",
+            "children": [
+             {
+             "name": "varDec",
+             "children": [
+              {"name": "P"},
+              {"name": "intExp(0)"}
+             ]
+             },
+             {
+             "name": "decList",
+             "children": [
+              {
+              "name": "varDec",
+              "children": [
+               {"name": "tmp"},
+               {"name": "intExp(0)"}
+              ]
+              },
+              {"name": "decList()"}
+             ]
+             }
+            ]
+            }
+           ]
+           },
+           {
+           "name": "seqExp",
+           "children": [
+            {
+            "name": "expList",
+            "children": [
+             {
+             "name": "forExp",
+             "children": [
+              {"name": "P"},
+              {"name": "intExp(1)"},
+              {
+              "name": "varExp",
+              "children": [
+               {"name": "simpleVar(N)"}
+              ]
+              },
+              {
+              "name": "seqExp",
+              "children": [
+               {
+               "name": "expList",
+               "children": [
+                {
+                "name": "assignExp",
+                "children": [
+                 {"name": "simpleVar(tmp)"},
+                 {
+                 "name": "varExp",
+                 "children": [
+                  {
+                  "name": "subscriptVar",
+                  "children": [
+                   {"name": "simpleVar(x)"},
+                   {
+                   "name": "varExp",
+                   "children": [
+                    {"name": "simpleVar(P)"}
+                   ]
+                   }
+                  ]
+                  }
+                 ]
+                 }
+                ]
+                },
+                {
+                "name": "expList",
+                "children": [
+                 {
+                 "name": "assignExp",
+                 "children": [
+                  {"name": "simpleVar(j)"},
+                  {
+                  "name": "varExp",
+                  "children": [
+                   {"name": "simpleVar(P)"}
+                  ]
+                  }
+                 ]
+                 },
+                 {
+                 "name": "expList",
+                 "children": [
+                  {
+                  "name": "whileExp",
+                  "children": [
+                   {
+                   "name": "opExp",
+                   "children": [
+                    {"name": "GREAT"},
+                    {
+                    "name": "varExp",
+                    "children": [
+                     {"name": "simpleVar(j)"}
+                    ]
+                    },
+                    {"name": "intExp(0)"}
+                   ]
+                   },
+                   {
+                   "name": "seqExp",
+                   "children": [
+                    {
+                    "name": "expList",
+                    "children": [
+                     {
+                     "name": "ifExp",
+                     "children": [
+                      {
+                      "name": "opExp",
+                      "children": [
+                       {"name": "LESSEQ"},
+                       {
+                       "name": "varExp",
+                       "children": [
+                        {
+                        "name": "subscriptVar",
+                        "children": [
+                         {"name": "simpleVar(x)"},
+                         {
+                         "name": "opExp",
+                         "children": [
+                          {"name": "MINUS"},
+                          {
+                          "name": "varExp",
+                          "children": [
+                           {"name": "simpleVar(j)"}
+                          ]
+                          },
+                          {"name": "intExp(1)"}
+                         ]
+                         }
+                        ]
+                        }
+                       ]
+                       },
+                       {
+                       "name": "varExp",
+                       "children": [
+                        {"name": "simpleVar(tmp)"}
+                       ]
+                       }
+                      ]
+                      },
+                      {"name": "breakExp()"}
+                     ]
+                     },
+                     {
+                     "name": "expList",
+                     "children": [
+                      {
+                      "name": "assignExp",
+                      "children": [
+                       {
+                       "name": "subscriptVar",
+                       "children": [
+                        {"name": "simpleVar(x)"},
+                        {
+                        "name": "varExp",
+                        "children": [
+                         {"name": "simpleVar(j)"}
+                        ]
+                        }
+                       ]
+                       },
+                       {
+                       "name": "varExp",
+                       "children": [
+                        {
+                        "name": "subscriptVar",
+                        "children": [
+                         {"name": "simpleVar(x)"},
+                         {
+                         "name": "opExp",
+                         "children": [
+                          {"name": "MINUS"},
+                          {
+                          "name": "varExp",
+                          "children": [
+                           {"name": "simpleVar(j)"}
+                          ]
+                          },
+                          {"name": "intExp(1)"}
+                         ]
+                         }
+                        ]
+                        }
+                       ]
+                       }
+                      ]
+                      },
+                      {
+                      "name": "expList",
+                      "children": [
+                       {
+                       "name": "opExp",
+                       "children": [
+                        {"name": "MINUS"},
+                        {
+                        "name": "varExp",
+                        "children": [
+                         {"name": "simpleVar(j)"}
+                        ]
+                        },
+                        {"name": "intExp(1)"}
+                       ]
+                       },
+                       {"name": "expList()"}
+                      ]
+                      }
+                     ]
+                     }
+                    ]
+                    }
+                   ]
+                   }
+                  ]
+                  },
+                  {
+                  "name": "expList",
+                  "children": [
+                   {
+                   "name": "assignExp",
+                   "children": [
+                    {
+                    "name": "subscriptVar",
+                    "children": [
+                     {"name": "simpleVar(x)"},
+                     {
+                     "name": "varExp",
+                     "children": [
+                      {"name": "simpleVar(j)"}
+                     ]
+                     }
+                    ]
+                    },
+                    {
+                    "name": "varExp",
+                    "children": [
+                     {"name": "simpleVar(tmp)"}
+                    ]
+                    }
+                   ]
+                   },
+                   {"name": "expList()"}
+                  ]
+                  }
+                 ]
+                 }
+                ]
+                }
+               ]
+               }
+              ]
+              }
+             ]
+             },
+             {"name": "expList()"}
+            ]
+            }
+           ]
+           }
+          ]
+          },
+          {"name": "expList()"}
+         ]
+         }
+        ]
+        }
+       ]
+       },
+       {"name": "fundecList()"}
+      ]
+      }
+     ]
+     },
+     {"name": "decList()"}
+    ]
+    }
+   ]
+   }
+  ]
+  },
+  {
+  "name": "seqExp",
+  "children": [
+   {
+   "name": "expList",
+   "children": [
+    {
+    "name": "assignExp",
+    "children": [
+     {
+     "name": "subscriptVar",
+     "children": [
+      {"name": "simpleVar(a)"},
+      {"name": "intExp(0)"}
+     ]
+     },
+     {"name": "intExp(2)"}
+    ]
+    },
+    {
+    "name": "expList",
+    "children": [
+     {
+     "name": "assignExp",
+     "children": [
+      {
+      "name": "subscriptVar",
+      "children": [
+       {"name": "simpleVar(a)"},
+       {"name": "intExp(1)"}
+      ]
+      },
+      {"name": "intExp(3)"}
+     ]
+     },
+     {
+     "name": "expList",
+     "children": [
+      {
+      "name": "assignExp",
+      "children": [
+       {
+       "name": "subscriptVar",
+       "children": [
+        {"name": "simpleVar(a)"},
+        {"name": "intExp(2)"}
+       ]
+       },
+       {"name": "intExp(1)"}
+      ]
+      },
+      {"name": "expList()"}
+     ]
+     }
+    ]
+    }
+   ]
+   }
+  ]
+  }
+ ]
+ }

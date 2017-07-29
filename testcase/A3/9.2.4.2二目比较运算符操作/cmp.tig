@@ -1,0 +1,14 @@
+/* Comparasion: exp op exp
+	op: =, <>, >, <, >=, <=
+*/
+
+let
+	var a := 0
+in
+	a := 1 = 2;
+	a := 1 <> 2;
+	a := 1 < 2;
+	a := 1 > 2;
+	a := 1 >= 2;
+	a := 1 <= 2;
+end
